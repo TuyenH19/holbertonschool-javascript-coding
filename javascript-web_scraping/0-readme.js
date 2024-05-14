@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Check if file path is provided
 if (process.argv.length < 3) {
-  console.log('Usage: node readme.js <file_path>');
+  console.log('Usage: node 0-readme.js <file_path>');
   process.exit(1);
 }
 
