@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Check if file path and string to write are provided
 if (process.argv.length < 4) {
-  console.log('Usage: node writeToFile.js <file_path> <string_to_write>');
+  console.log('Usage: node 1-writeme.js <file_path> <string_to_write>');
   process.exit(1);
 }
 
