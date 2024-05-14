@@ -16,6 +16,5 @@ request.get(url, (error, response) => {
     console.error(error);
     return;
   }
-
   console.log(`code: ${response.statusCode}`);
 });
