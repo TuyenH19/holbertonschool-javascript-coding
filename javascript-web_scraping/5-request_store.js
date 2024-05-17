@@ -1,11 +1,11 @@
 #!/usr/bin/node
 
 const request = require('request');
-const fs = require('fs')
+const fs = require('fs');
 
 // Check if URL and file path are provided
 if (process.argv.length < 4) {
-  console.log("Usage: node 5-request_store.js <URL> <file_path>");
+  console.log('Usage: node 5-request_store.js <URL> <file_path>');
   process.exit(1);
 }
 

@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-const request = require("request");
+const request = require('request');
 
 // Check if URL is provided
 if (process.argv.length < 3) {
-  console.log("Usage: node 2-statuscode.js <URL>");
+  console.log('Usage: node 2-statuscode.js <URL>');
   process.exit(1);
 }
 

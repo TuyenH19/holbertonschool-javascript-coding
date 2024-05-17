@@ -15,9 +15,7 @@ fs.readFile(filePath, 'utf-8', (err, data) => {
   // Print the error object if an error occurred
   if (err) {
     console.error(err);
-  }
-  // Print the content of the file
-  else {
+  } else {
     console.log(data);
   }
 });
