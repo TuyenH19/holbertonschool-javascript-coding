@@ -1,14 +1,14 @@
-const http = require('http');
+const http = require("http");
 
 const port = 1245;
 
 const app = http.createServer((req, res) => {
-  res.write('Hello Holberton School!');
+  res.write("Hello Holberton School!");
   res.end();
 });
 
 app.listen(port, () => {
-  console.log(`Server is listening on port${port}`);
+  console.log(`${port}`);
 });
 
 /* app.listen(port, (error) => {
