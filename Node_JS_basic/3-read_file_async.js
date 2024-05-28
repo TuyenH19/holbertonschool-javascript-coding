@@ -6,7 +6,8 @@ const countStudents = (path) => new Promise((resolve, reject) => {
       reject(new Error('Cannot load the database'));
     } else {
       try {
-        const data = fileData.split('\n').slice(1, fileData.length - 1);
+        const data1 = fileData.toString().split('\n');
+        const data = data1.slice(1, data1.length - 1);
         console.log(`Number of students: ${data.length}`);
         const subjects = {};
         for (const row of data) {
